@@ -11,7 +11,7 @@ class App extends Component {
     }
   }
   async componentDidMount() {
-    const response = await fetch('http://localhost:5001/')
+    const response = await fetch('http://206.189.90.61:5001')
     const json = await response.json();
     const text = json.data;
 
